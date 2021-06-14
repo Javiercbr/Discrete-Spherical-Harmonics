@@ -42,11 +42,14 @@ The DSHT-IDSHT has been applied to a 3D Shepp-Logan transform of size 64x64x64, 
 
 # References
 
-[1]
+[1] Driscoll J and Healy D 1994 Computing Fourier transforms and convolutions on the 2-sphere
+Advances in Applied Mathematics 15 202–250
 
-[2]
+[2] Basko R, Zeng G L and Gullberg G T 1998 Application of spherical harmonics to image
+reconstruction for the Compton camera Physics in Medicine and Biology 43 887–94
 
-[3]
+[3]  J. Cebeiro, C. Tarpau, M. A. Morvidone, D. Rubio and M. K. Nguyen, On a three-dimensional Compton scattering tomography system with fixed source, Inverse Problems, Special issue on Modern Challenges in Imaging, 37(2021), 054001 (23pp) , 2021. https://doi.org/10.1088/1361-6420/abf0f0 
 
-[4]
+[4] Taguchi K, Zeng G L and Gullberg G T 2001 Cone-beam image reconstruction using spherical
+harmonics Physics in Medicine and Biology 46 127–138
 
