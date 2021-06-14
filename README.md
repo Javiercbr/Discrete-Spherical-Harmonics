@@ -11,7 +11,7 @@ The idea consist in slicing the 3D object in concentric spheres of different rad
 
 </p>
 
-where the forward inverse pairs are used for the Fourier (DFT-IDFT) and Legendre (DLT-IDLT) discrete transforms. 
+where the forward inverse pairs are used for the Fourier (DFT-IDFT) and Legendre (DLT-IDLT) discrete transforms. Index j labels the radius of each sphere whereas indicesl and m lable the spherical component. Indices n and k label polar and azimuthal angles. The DFT-IDFT pair is defined in any test of signal processing, the DLT-IDLT is defined as follows: 
 
 <p align="center">
   <img src="Eqs/eq1.png" width="500" title="hover text">
@@ -22,6 +22,8 @@ where the forward inverse pairs are used for the Fourier (DFT-IDFT) and Legendre
   <img src="Eqs/eq2.png" width="500" title="hover text">
 
 </p>
+
+whit
 
 <p align="center">
   <img src="Eqs/eq3.png" width="500" title="hover text">
