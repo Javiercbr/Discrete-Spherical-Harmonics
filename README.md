@@ -35,11 +35,18 @@ Refer to [3]  for a detailed description of the algorithm.
 The DSHT-IDSHT has been applied to a 3D Shepp-Logan transform of size 64x64x64, a standard for testing algorithms in medical imaging. The figure shows representative slices of the original object and its recosntruction (column 2). Some arifacts due to Gibbs phenomenon are seen. Appropriate filtering [4] reduces this effect (column 3) and improves image quality. The 3D object is provided with the code and the main executes it automatically.
 
 <p align="center">
-  <img src="SL_SHT.png" width="700" title="hover text">
+  <img src="SL_SHT.png" width="900" title="hover text">
 
 </p>
 
 
 # References
 
+[1]
+
+[2]
+
+[3]
+
+[4]
 
