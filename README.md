@@ -23,7 +23,7 @@ where the forward inverse pairs are used for the Fourier (DFT-IDFT) and Legendre
 
 </p>
 
-whit
+where P() are Legendre functions and
 
 <p align="center">
   <img src="Eqs/eq3.png" width="500" title="hover text">
@@ -41,6 +41,7 @@ The DSHT-IDSHT has been applied to a 3D Shepp-Logan transform of size 64x64x64, 
 
 </p>
 
+Porcentual RMSE are 0.12 % for non-filtered and 0.28 % for filtered reconstructions.
 
 # References
 
