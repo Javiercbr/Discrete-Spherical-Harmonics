@@ -23,7 +23,7 @@ where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT
 
 </p>
 
-where P() are Legendre functions and
+where <img src="https://render.githubusercontent.com/render/math?math=P_l^m(x)"> are Legendre polynomials of degree l and order m and
 
 <p align="center">
   <img src="Eqs/eq3.png" width="500" title="hover text">
