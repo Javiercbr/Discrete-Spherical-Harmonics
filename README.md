@@ -41,7 +41,7 @@ The DSHT-IDSHT has been applied to a 3D Shepp-Logan phantom of size 64x64x64. Th
 
 </p>
 
-Percent RMSE are 0.12% for non-filtered and 0.28% for filtered reconstructions.
+Percent RMSE is 0.12% for non-filtered and 0.28% for filtered reconstructions.
 
 # References
 
