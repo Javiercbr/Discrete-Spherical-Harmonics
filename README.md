@@ -4,14 +4,14 @@ This is implementation of the Discrete Spherical Harmonic Expansion for 3D funct
 
 # Pipeline
 
-The idea consist in slicing a 3D function <img src="https://render.githubusercontent.com/render/math?math=f(x,y,z)"> in many concentric spheres of different radi and performing the DSHT for each sphere. Thus, we have radial dependent coeficients of the DSHT expansion. The full pipeline is summarized as follows: 
+The idea consists in slicing a 3D function <img src="https://render.githubusercontent.com/render/math?math=f(x,y,z)"> in many concentric spheres of different radii and performing the DSHT for each sphere. Thus, we have radial dependent coefficients of the DSHT expansion. The full pipeline is summarized as follows: 
  
 <p align="center">
   <img src="Eqs/DSHT.png" width="700" title="hover text">
 
 </p>
 
-where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT-IDFT) and the Discrete Legendre Transfom (DLT-IDLT). Index j labels the radius of each sphere whereas indices l and m label the spherical component. Indices n and k label the polar <img src="https://render.githubusercontent.com/render/math?math=\theta \in [0, 2\pi)"> and azimuthal angles <img src="https://render.githubusercontent.com/render/math?math=\phi\in\[0, \pi]">. We used the standard definition for the DFT-IDFT pair available in any text of signal processing. The DLT-IDLT is defined as follows: 
+where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT-IDFT) and the Discrete Legendre Transform (DLT-IDLT). Index j labels the radius of each sphere whereas indices l and m label the spherical component. Indices n and k label the polar <img src="https://render.githubusercontent.com/render/math?math=\theta \in [0, 2\pi)"> and azimuthal angles <img src="https://render.githubusercontent.com/render/math?math=\phi\in\[0, \pi]">. We used the standard definition for the DFT-IDFT pair available in any text of signal processing. The DLT-IDLT is defined as follows: 
 
 <p align="center">
   <img src="Eqs/eq1.png" width="500" title="hover text">
@@ -34,7 +34,7 @@ Refer to [3] for a more detailed description of the algorithm.
 
 # Results
 
-The DSHT-IDSHT has been applied to a 3D Shepp-Logan phantom of size 64x64x64. This is a 3D version of the benchmark for testing algorithms in medical imaging. The figure shows six representative slices of the original object and its recosntruction (column 2). The reconstruction exhibits some arifacts due to Gibbs phenomenon. Appropriate filtering [4] reduces this effect (column 3) and improves image quality. The 3D object is provided with the code and the main executes it automatically.
+The DSHT-IDSHT has been applied to a 3D Shepp-Logan phantom of size 64x64x64. This is a 3D version of the benchmark for testing algorithms in medical imaging. The figure shows six representative slices of the original object and its reconstruction (column 2). The reconstruction exhibits some artifacts due to Gibbs phenomenon. Appropriate filtering [4] reduces this effect (column 3) and improves image quality. The 3D object is provided with the code and the main executes it automatically.
 
 <p align="center">
   <img src="SL_SHT.png" width="900" title="hover text">
