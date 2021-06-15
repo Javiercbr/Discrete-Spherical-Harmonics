@@ -1,10 +1,10 @@
-# An Algorithm for Discrete Spherical Harmonics Expansion of 3D images
+# Algorithm for Discrete Spherical Harmonics Expansion of 3D functions with applications in imaging
  
-This is implementation of the Discrete Spherical Harmonic Expansion for 3D functions used in imaging problems. The code uses the algorithm for Discrete Spherical Harmonic Expansion of functions on the sphere [1][2]. An improved version of this code has been used in [3] for reconstruction in 3D Compton Scattering Tomography. 
+This is implementation of the Discrete Spherical Harmonic Expansion for 3D functions used in imaging problems. The code bases on the algorithm for Discrete Spherical Harmonic Transform (DSHT) of functions on the unit sphere [1][2]. An improved version of this code has been employed in [3] for image reconstruction in 3D Compton Scattering Tomography. 
 
 # Pipeline
 
-The idea consist in slicing the 3D object in concentric spheres of different radi and performing the DSHT for each sphere. Thus, we have radial coeficients of the DSHT expansion. The full pipeline an be summarized as follows: 
+The idea consist in slicing a 3D function <img src="https://render.githubusercontent.com/render/math?math=f(x,y,z)"> in many concentric spheres of different radi and performing the DSHT for each sphere. Thus, we have radial dependent coeficients of the DSHT expansion. The full pipeline is summarized as follows: 
  
 <p align="center">
   <img src="Eqs/DSHT.png" width="700" title="hover text">
