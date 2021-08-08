@@ -1,6 +1,6 @@
-# Algorithm for Discrete Spherical Harmonics Expansion of 3D functions with applications in imaging
+# Algorithm for Discrete Spherical Harmonic Expansion of 3D functions
  
-This is implementation of the Discrete Spherical Harmonic Expansion for 3D functions used in imaging problems. The code bases on the algorithm for Discrete Spherical Harmonic Transform (DSHT) of functions on the unit sphere [1][2]. An improved version of this code has been employed in [3] for image reconstruction in 3D Compton Scattering Tomography. 
+This is an implementation of the Discrete Spherical Harmonic Expansion for 3D functions used in imaging problems. The code bases on the algorithm for Discrete Spherical Harmonic Transform (DSHT) of functions on the unit sphere [1][2]. An improved version of this code has been employed in [3] for image reconstruction in 3D Compton Scattering Tomography. 
 
 # Pipeline
 
