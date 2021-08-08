@@ -2,16 +2,19 @@
  
 This is an implementation of the Discrete Spherical Harmonic Expansion for 3D functions used in imaging problems. The code bases on the algorithm for Discrete Spherical Harmonic Transform (DSHT) of functions on the unit sphere [1][2]. An improved version of this code has been employed in [3] for image reconstruction in 3D Compton Scattering Tomography. 
 
-# Pipeline
+# 2D algorithm: Circular Component Expansion
 
-The idea consists in slicing a 3D function <img src="https://render.githubusercontent.com/render/math?math=f(x,y,z)"> in many concentric spheres of different radii and performing the DSHT for each sphere. Thus, we have radial dependent coefficients of the DSHT expansion. The full pipeline is summarized as follows: 
+# 3D algorithm: Spherical Harmonic Expansion
+
+The idea consists in slicing a function
+ <img src="https://render.githubusercontent.com/render/math?math=f: \mathbb{R}^3 \rightarrow \mathbb{R}"> in spheres centered at the origin. In shperical coordinates, the function is <img src="https://render.githubusercontent.com/render/math?math=F(r,\theta,\phi )">. For a given radius <img src="https://render.githubusercontent.com/render/math?math=r">, the values of the function lie on a sphere parametrized by angles <img src="https://render.githubusercontent.com/render/math?math=(\theta,\phi )">. Functions on a sphere can be expanded using Spherical Harmonic Expansion. In the discrete case, the samples of function <img src="https://render.githubusercontent.com/render/math?math=F_{kn}^j = F(r_j,\theta_k,\phi_n )"> are decomposed to obtain the radial dependent coefficients of the DSHT expansion <img src="https://render.githubusercontent.com/render/math?math=(F^j_{lm}=F_{lm}(r_j))">. The full pipeline is summarized as follows: 
  
 <p align="center">
   <img src="Eqs/DSHT.png" width="700" title="hover text">
 
 </p>
 
-where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT-IDFT) and the Discrete Legendre Transform (DLT-IDLT). Index j labels the radius of each sphere whereas indices l and m label the spherical component. Indices n and k label the polar <img src="https://render.githubusercontent.com/render/math?math=\theta \in [0, 2\pi)"> and azimuthal angles <img src="https://render.githubusercontent.com/render/math?math=\phi\in\[0, \pi]">. We used the standard definition for the DFT-IDFT pair available in any text of signal processing. The DLT-IDLT is defined as follows: 
+where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT-IDFT) and the Discrete Legendre Transform (DLT-IDLT). Index j labels the radius of each sphere whereas indices l and m label the spherical component. Indices n and k label the polar <img src="https://render.githubusercontent.com/render/math?math=\phi \in [0, 2\pi)"> and azimuthal angles <img src="https://render.githubusercontent.com/render/math?math=\theta\in\[0, \pi]">. We used the standard definition for the DFT-IDFT pair available in any text of signal processing. The DLT-IDLT is defined as follows: 
 
 <p align="center">
   <img src="Eqs/eq1.png" width="500" title="hover text">
@@ -32,7 +35,7 @@ where <img src="https://render.githubusercontent.com/render/math?math=P_l^m(t_k)
 
 Refer to [3] for a more detailed description of the algorithm.
 
-# Results
+# Reconstructions
 
 The DSHT-IDSHT has been applied to a 3D Shepp-Logan phantom of size 64x64x64. This is a 3D version of the benchmark for testing algorithms in medical imaging. The figure shows six representative slices of the original object and its reconstruction (column 2). The reconstruction exhibits some artifacts due to Gibbs phenomenon. Appropriate filtering [4] reduces this effect (column 3) and improves image quality. The 3D object is provided with the code and the main executes it automatically.
 
