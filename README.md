@@ -4,7 +4,7 @@ This is an implementation of the Discrete Spherical Harmonic Expansion for 3D fu
 
 # Circular Component Expansion in 2D
 
-This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in  <img src="https://render.githubusercontent.com/render/math?math=\mathbb{R}^2">  wtitten in polar coordinates as <img src="https://render.githubusercontent.com/render/math?math=F(r,\phi )"> is decomposed in circular componenets. The function on a circle of radius r centered at the origin are then expanded as Fourier series of a <img src="https://render.githubusercontent.com/render/math?math={2\pi}">-periodic function according
+This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in  <img src="https://render.githubusercontent.com/render/math?math=\mathbb{R}^2">  written in polar coordinates as <img src="https://render.githubusercontent.com/render/math?math=F(r,\phi )"> is decomposed in circular components. The function on a circle of radius r centered at the origin are then expanded as Fourier series of a <img src="https://render.githubusercontent.com/render/math?math={2\pi}">-periodic function according
 
 
 <img src="https://render.githubusercontent.com/render/math?math=F(r, \phi)=\sum_{l\in \mathbb{Z}}F_{l}(r)e^{il\phi},">
@@ -17,7 +17,7 @@ The discrete expansion can easily be carried out using the DFT-IDFT pair and the
 # Spherical Harmonic Expansion in 3D
 
 The idea consists in slicing a function
- <img src="https://render.githubusercontent.com/render/math?math=f: \mathbb{R}^3 \rightarrow \mathbb{R}"> in spheres centered at the origin. In shperical coordinates, the function is <img src="https://render.githubusercontent.com/render/math?math=F(r,\theta,\phi )">. For a given radius <img src="https://render.githubusercontent.com/render/math?math=r">, the values of the function lie on a sphere parametrized by angles <img src="https://render.githubusercontent.com/render/math?math=(\theta,\phi )\in\[0, \pi]\times[0, 2\pi)">. Functions on a sphere of radius <img src="https://render.githubusercontent.com/render/math?math=r"> can be expanded using Spherical Harmonic Expansion according
+ <img src="https://render.githubusercontent.com/render/math?math=f: \mathbb{R}^3 \rightarrow \mathbb{R}"> in spheres centered at the origin. In spherical coordinates, the function is <img src="https://render.githubusercontent.com/render/math?math=F(r,\theta,\phi )">. For a given radius <img src="https://render.githubusercontent.com/render/math?math=r">, the values of the function lie on a sphere parametrized by angles <img src="https://render.githubusercontent.com/render/math?math=(\theta,\phi )\in\[0, \pi]\times[0, 2\pi)">. Functions on a sphere of radius <img src="https://render.githubusercontent.com/render/math?math=r"> can be expanded using Spherical Harmonic Expansion according
 
 
 <img src="https://render.githubusercontent.com/render/math?math=F(r,\theta,\phi)=\sum_{l=0}^\infty\sum_{|m|\leq l}F_{lm}(r)Y_l^m(\theta,\phi),">
@@ -26,7 +26,7 @@ where the Spherical Harmonics are
 
 <img src="https://render.githubusercontent.com/render/math?math=Y_l^m(\theta,\phi)=(-1)^m\sqrt{\frac{(2l %2B 1)(l-m)!}{4\pi(l %2B m)!}}P^m_l(\cos\theta)e^{im\phi},">
 
-and the radial componenets are
+and the radial components are
 
 <img src="https://render.githubusercontent.com/render/math?math=F_{lm}(r)=\langle F, Y_l^m \rangle=\int_0^{2\pi}\int_0^\pi F(r,\theta,\phi)\overline{Y_l^m(\theta,\phi)}\sin\theta \,d\theta d\phi,">
 
@@ -57,7 +57,7 @@ The algorithm employs the standard definition for the DFT-IDFT pair. The DLT-IDL
 
 </p>
 
-where <img src="https://render.githubusercontent.com/render/math?math=N"> is the order of the exapnsion, <img src="https://render.githubusercontent.com/render/math?math=N_\theta"> the discetization in the azimuthal angle,  <img src="https://render.githubusercontent.com/render/math?math=P_l^m(t_k)"> are Legendre polynomials of degree <img src="https://render.githubusercontent.com/render/math?math=l=0,...,N"> and order <img src="https://render.githubusercontent.com/render/math?math=m=-N,...,N">, <img src="https://render.githubusercontent.com/render/math?math=t_k=\cos \theta_k">, <img src="https://render.githubusercontent.com/render/math?math=w_k"> is the Gaussian quadrature factor, and
+where <img src="https://render.githubusercontent.com/render/math?math=N"> is the order of the expansion, <img src="https://render.githubusercontent.com/render/math?math=N_\theta"> the discretization in the azimuthal angle,  <img src="https://render.githubusercontent.com/render/math?math=P_l^m(t_k)"> are Legendre polynomials of degree <img src="https://render.githubusercontent.com/render/math?math=l=0,...,N"> and order <img src="https://render.githubusercontent.com/render/math?math=m=-N,...,N">, <img src="https://render.githubusercontent.com/render/math?math=t_k=\cos \theta_k">, <img src="https://render.githubusercontent.com/render/math?math=w_k"> is the Gaussian quadrature factor, and
 
 <p align="center">
   <img src="Eqs/eq3.png" width="500" title="hover text">
@@ -75,7 +75,7 @@ The DSHT-IDSHT of order <img src="https://render.githubusercontent.com/render/ma
 
 </p>
 
-Percent RMSE is 0.12% for non-filtered and 0.28% for filtered reconstructions.
+Percent RMSE (root mean squared error) is 0.12% for non-filtered and 0.28% for filtered reconstructions.
 
 # References
 
