@@ -43,7 +43,9 @@ and the radial componenets are
 
 </p>
 
-where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT-IDFT) and the Discrete Legendre Transform (DLT-IDLT). Index <img src="https://render.githubusercontent.com/render/math?math=j"> labels the radius of each sphere whereas indices <img src="https://render.githubusercontent.com/render/math?math=l"> and <img src="https://render.githubusercontent.com/render/math?math=m"> label the spherical component. Indices <img src="https://render.githubusercontent.com/render/math?math=n=-N,...,N"> and <img src="https://render.githubusercontent.com/render/math?math=k=1,...,N_\theta"> label the polar <img src="https://render.githubusercontent.com/render/math?math=\phi \in [0, 2\pi)"> and azimuthal angles <img src="https://render.githubusercontent.com/render/math?math=\theta\in\[0, \pi]">. The algorithm employs the standard definition for the DFT-IDFT pair. The DLT-IDLT is defined as follows: 
+where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT-IDFT) and the Discrete Legendre Transform (DLT-IDLT). Index <img src="https://render.githubusercontent.com/render/math?math=j"> labels the radius of each sphere whereas indices <img src="https://render.githubusercontent.com/render/math?math=l"> and <img src="https://render.githubusercontent.com/render/math?math=m"> label the spherical component. Indices <img src="https://render.githubusercontent.com/render/math?math=n=-N,...,N"> and <img src="https://render.githubusercontent.com/render/math?math=k=1,...,N_\theta"> label the polar <img src="https://render.githubusercontent.com/render/math?math=\phi \in [0, 2\pi)"> and azimuthal angles <img src="https://render.githubusercontent.com/render/math?math=\theta\in\[0, \pi]">. Radius <img src="https://render.githubusercontent.com/render/math?math=r"> must cover the support of the function.
+
+The algorithm employs the standard definition for the DFT-IDFT pair. The DLT-IDLT is defined as follows: 
 
 <p align="center">
   <img src="Eqs/eq1.png" width="500" title="hover text">
@@ -55,7 +57,7 @@ where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT
 
 </p>
 
-where N is the order of the exapnsion, <img src="https://render.githubusercontent.com/render/math?math=N_\theta"> the discetization in the azimuthal angle,  <img src="https://render.githubusercontent.com/render/math?math=P_l^m(t_k)"> are Legendre polynomials of degree <img src="https://render.githubusercontent.com/render/math?math=l=0,...,N"> and order <img src="https://render.githubusercontent.com/render/math?math=|m|\leq l">, <img src="https://render.githubusercontent.com/render/math?math=t_k=\cos \theta_k">, <img src="https://render.githubusercontent.com/render/math?math=w_k"> is the Gaussian quadrature factor, and
+where N is the order of the exapnsion, <img src="https://render.githubusercontent.com/render/math?math=N_\theta"> the discetization in the azimuthal angle,  <img src="https://render.githubusercontent.com/render/math?math=P_l^m(t_k)"> are Legendre polynomials of degree <img src="https://render.githubusercontent.com/render/math?math=l=0,...,N"> and order <img src="https://render.githubusercontent.com/render/math?math=m=-N,...,N">, <img src="https://render.githubusercontent.com/render/math?math=t_k=\cos \theta_k">, <img src="https://render.githubusercontent.com/render/math?math=w_k"> is the Gaussian quadrature factor, and
 
 <p align="center">
   <img src="Eqs/eq3.png" width="500" title="hover text">
