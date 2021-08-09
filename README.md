@@ -58,7 +58,7 @@ The algorithm employs the standard definition for the DFT-IDFT pair. The DLT-IDL
 
 </p>
 
-where <img src="https://render.githubusercontent.com/render/math?math=N"> is the order of the expansion, <img src="https://render.githubusercontent.com/render/math?math=N_\theta"> the discretization in the azimuthal angle,  <img src="https://render.githubusercontent.com/render/math?math=P_l^m(t_k)"> are Legendre polynomials of degree <img src="https://render.githubusercontent.com/render/math?math=l=0,...,N"> and order <img src="https://render.githubusercontent.com/render/math?math=m=-N,...,N">, <img src="https://render.githubusercontent.com/render/math?math=t_k=\cos \theta_k">, <img src="https://render.githubusercontent.com/render/math?math=w_k"> is the Gaussian quadrature factor, and
+where <img src="https://render.githubusercontent.com/render/math?math=N"> is the order of the expansion, <img src="https://render.githubusercontent.com/render/math?math=N_\theta"> the discretization in the azimuthal angle,  <img src="https://render.githubusercontent.com/render/math?math=P_l^m(t_k)"> are Legendre polynomials of degree <img src="https://render.githubusercontent.com/render/math?math=l=0,...,N"> and order <img src="https://render.githubusercontent.com/render/math?math=m=-N,...,N">, <img src="https://render.githubusercontent.com/render/math?math=t_k=\cos \theta_k">, <img src="https://render.githubusercontent.com/render/math?math=w_k"> is the Gaussian quadrature factor (calculated with a third party script), and
 
 <p align="center">
   <img src="Eqs/eq3.png" width="500" title="hover text">
