@@ -4,8 +4,11 @@ function [ f ] = spherical2cartesian( F, r, theta, phi, x, y , z )
 %
 % Spherical Harmonic Expansion
 % By Javier Cebeiro and Marcela Morvidone
-% Centro de Matem�tica Aplicada, Universidad Nacional de San Martin
-% Buenos Aires, Argentina, 2019
+% Centro de Matemática Aplicada, Universidad Nacional de San Martin
+% Buenos Aires, Argentina
+% Labo ETIS, Equipes Traitement de l'Information et Systèmes/ENSEA/UCP
+% France
+% 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -60,4 +63,3 @@ f = interp3( theta, r, phi, F, theta_, r_, phi_);
 
 
 end
-

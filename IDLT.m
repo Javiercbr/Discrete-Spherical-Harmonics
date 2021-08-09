@@ -4,11 +4,13 @@ function [ Flm ] = IDLT( Fkm, l, m, w, PL )
 %
 % Spherical Harmonic Expansion
 % By Javier Cebeiro and Marcela Morvidone
-% Centro de Matem�tica Aplicada, Universidad Nacional de San Martin
-% Buenos Aires, Argentina, 2019
+% Centro de Matemática Aplicada, Universidad Nacional de San Martin
+% Buenos Aires, Argentina
+% Labo ETIS, Equipes Traitement de l'Information et Systèmes/ENSEA/UCP
+% France
+% 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 % Calculate the Inverse Discrete Legendre Transform (IDLT) for indices  m 
 % and l using weights w and Legendre functions PL.
 
@@ -49,4 +51,3 @@ Flm =  sum(Fkm.*THETAlm.*w);
 
 
 end
-

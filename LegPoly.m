@@ -4,11 +4,13 @@ function [ PL ] = LegPoly( tk, N )
 %
 % Spherical Harmonic Expansion
 % By Javier Cebeiro and Marcela Morvidone
-% Centro de Matem�tica Aplicada, Universidad Nacional de San Martin
-% Buenos Aires, Argentina, 2019
+% Centro de Matemática Aplicada, Universidad Nacional de San Martin
+% Buenos Aires, Argentina
+% Labo ETIS, Equipes Traitement de l'Information et Systèmes/ENSEA/UCP
+% France
+% 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 % This script returns a 3D array with the Legendre functions up to degree l = N
 % with orders m = 0, 1, ..., l evaluated in tk. For instance, theLegendre
@@ -40,4 +42,3 @@ end
 
 
 end
-

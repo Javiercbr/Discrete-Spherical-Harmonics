@@ -4,11 +4,13 @@ function [Fkn] = ISHT(Flm, theta, N, PL)
 %
 % Spherical Harmonic Expansion
 % By Javier Cebeiro and Marcela Morvidone
-% Centro de Matem�tica Aplicada, Universidad Nacional de San Martin
-% Buenos Aires, Argentina, 2019
+% Centro de Matemática Aplicada, Universidad Nacional de San Martin
+% Buenos Aires, Argentina
+% Labo ETIS, Equipes Traitement de l'Information et Systèmes/ENSEA/UCP
+% France
+% 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 % This function receives Flm coefficients of the SHE of a function and
 % returns the Inverse Spherical Harmonic Transform, i.e. function
 % F(r, theta, phi). The algorithm is based in the following articles and 

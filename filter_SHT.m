@@ -5,11 +5,13 @@ function [Flm_filtered]  =  filter_SHT(Flm, N, K, Nr)
 %
 % Spherical Harmonic Expansion
 % By Javier Cebeiro and Marcela Morvidone
-% Centro de Matem�tica Aplicada, Universidad Nacional de San Martin
-% Buenos Aires, Argentina, 2019
+% Centro de Matemática Aplicada, Universidad Nacional de San Martin
+% Buenos Aires, Argentina
+% Labo ETIS, Equipes Traitement de l'Information et Systèmes/ENSEA/UCP
+% France
+% 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 % This function receives data in the form F(r, theta, phi) and returns the
 % Spherical Harmonic Expansion in the form of its coefficients Flm. The
 % algorithm is based in the following article and references therein

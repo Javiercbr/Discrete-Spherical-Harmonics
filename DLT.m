@@ -4,11 +4,13 @@ function [ Fm ] = DLT( Flm, m, theta, N, PL )
 %
 % Spherical Harmonic Expansion
 % By Javier Cebeiro and Marcela Morvidone
-% Centro de Matem�tica Aplicada, Universidad Nacional de San Martin
-% Buenos Aires, Argentina, 2019
+% Centro de Matemática Aplicada, Universidad Nacional de San Martin
+% Buenos Aires, Argentina
+% Labo ETIS, Equipes Traitement de l'Information et Systèmes/ENSEA/UCP
+% France
+% 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 % Calculates the Discrete Legendre Transform (DLT) for index m using nodes tk and weights w
 
 % INPUT
@@ -62,4 +64,3 @@ Fm = sum(Flm.*THETAlm, 1 ); % INTEGRATION: multiplies and sum over index l
 Fm = Fm.';
 
 end
-
