@@ -4,9 +4,9 @@ function [ Flm ] = IDLT( Fkm, l, m, w, PL )
 %
 % Spherical Harmonic Expansion
 % By Javier Cebeiro and Marcela Morvidone
-% Centro de Matem·tica Aplicada, Universidad Nacional de San Martin
+% Centro de Matem√°tica Aplicada, Universidad Nacional de San Martin
 % Buenos Aires, Argentina
-% Labo ETIS, Equipes Traitement de l'Information et SystËmes/ENSEA/UCP
+% Labo ETIS, Equipes Traitement de l'Information et Syst√®mes/ENSEA/UCP
 % France
 % 2019
 %
@@ -51,4 +51,3 @@ Flm =  sum(Fkm.*THETAlm.*w);
 
 
 end
-
