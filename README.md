@@ -1,6 +1,7 @@
 # Algorithm for Discrete Spherical Harmonic Expansion of 3D functions
  
-This is an implementation of the Discrete Spherical Harmonic Expansion for 3D functions useful for some 3D inverse problems in imaging. The code bases on the algorithm for Discrete Spherical Harmonic Transform (DSHT) of functions on the unit sphere [1][2]. An improved version of this code has been employed for image reconstruction in 3D Compton Scattering Tomography [3]. 
+This is an implementation of the Discrete Spherical Harmonic Expansion for 3D functions useful for some 3D inverse problems in imaging. The code bases on the algorithm for Discrete Spherical Harmonic Transform (DSHT) of functions on the unit sphere [1][2]. An improved version of this code has been employed for image reconstruction in 3D Compton Scattering Tomography [3]. The algorithm was developed during a visit to the Laboratory ETIS (Equipes Traitement de l'Information et Systèmes CYU Cergy Paris University/ENSEA). 
+
 
 # Circular Component Expansion in 2D
 
