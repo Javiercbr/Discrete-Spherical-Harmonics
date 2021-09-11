@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Cebeiro"
+  given-names: "Javier"
+- family-names: "Tarpau"
+  given-names: "Cecilia"
+- family-names: "Morvidone"
+  given-names: "Marcela A."
+- family-names: "Rubio"
+  given-names: "Diana"
+- family-names: "Nguyen"
+  given-names: "Mai K."
+title: "Algorithm for Discrete Spherical Harmonic Expansion of 3D functions"
+version: 1.0
+date-released: 2020-06-25
+url: "https://github.com/Javiercbr/Discrete-Spherical-Harmonics"
