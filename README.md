@@ -11,7 +11,7 @@ This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in
 <img src="https://render.githubusercontent.com/render/math?math=F(r, \phi)=\sum_{l\in \mathbb{Z}}F_{l}(r)e^{il\phi},">
 where
 
-<img src="https://render.githubusercontent.com/render/math?math=F_{l}(r)= \frac{1}{2\pi}\int_0^{2\pi} d\phi F(r,\phi)e^{-i l\phi}.">
+<img src="https://render.githubusercontent.com/render/math?math=F_{l}(r)= \frac{1}{2\pi}\int_0^{2\pi} d\phi \, F(r,\phi)e^{-i l\phi}.">
 
 The discrete expansion can easily be carried out using the DFT-IDFT pair and the efficient FFT algorithm.
 
