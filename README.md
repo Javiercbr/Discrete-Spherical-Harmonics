@@ -31,13 +31,28 @@ The idea consists in slicing a function
 $f: \mathbb{R}^3 \rightarrow \mathbb{R}$ in spheres centered at the origin. In spherical coordinates, the function is $F(r,\theta,\phi )$. For a given radius $r$, the values of the function lie on a sphere parametrized by angles $(\theta,\phi )\in\[0, \pi]\times[0, 2\pi)$. Functions on a sphere of radius $r$ can be expanded using Spherical Harmonic Expansion according
 
 
+
+<p align="center">
+  <img src="Eqs/SHE.png" width="300" title="hover text">
+
+</p>
 <img src="https://render.githubusercontent.com/render/math?math=F(r,\theta,\phi)=\sum_{l=0}^\infty\sum_{|m|\leq l}F_{lm}(r)Y_l^m(\theta,\phi),">
 
+
+
 where the Spherical Harmonics are
+<p align="center">
+  <img src="Eqs/Yml.png" width="300" title="hover text">
+
+</p>
 
 <img src="https://render.githubusercontent.com/render/math?math=Y_l^m(\theta,\phi)=(-1)^m\sqrt{\frac{(2l %2B 1)(l-m)!}{4\pi(l %2B m)!}}P^m_l(\cos\theta)e^{im\phi},">
 
 and the radial components are
+<p align="center">
+  <img src="Eqs/SHC.png" width="300" title="hover text">
+
+</p>
 
 <img src="https://render.githubusercontent.com/render/math?math=F_{lm}(r)=\langle F, Y_l^m \rangle=\int_0^{2\pi}\int_0^\pi F(r,\theta,\phi)\overline{Y_l^m(\theta,\phi)}\sin\theta \,d\theta d\phi,">
 
