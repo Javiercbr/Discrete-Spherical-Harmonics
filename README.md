@@ -44,7 +44,7 @@ and the radial components are
 
 </p>
 
-where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT-IDFT) and the Discrete Legendre Transform (DLT-IDLT). Index $j$ labels the radius of each sphere whereas indices $l$ and $m$ label the spherical component. Indices $n=-N,...,N$ and $k=1,...,N_\theta$ label the polar $\phi \in [0, 2\pi)$ and azimuthal angles $\theta\in\[0, \pi]$. Radius <img src="https://render.githubusercontent.com/render/math?math=r"> must cover the support of the function.
+where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT-IDFT) and the Discrete Legendre Transform (DLT-IDLT). Index $j$ labels the radius of each sphere whereas indices $l$ and $m$ label the spherical component. Indices $n=-N,...,N$ and $k=1,...,N_\theta$ label the polar $\phi \in [0, 2\pi)$ and azimuthal angles $\theta\in\[0, \pi]$. Radius $r$ must cover the support of the function.
 
 The algorithm employs the standard definition for the DFT-IDFT pair. The DLT-IDLT is defined as follows: 
 
@@ -58,7 +58,7 @@ The algorithm employs the standard definition for the DFT-IDFT pair. The DLT-IDL
 
 </p>
 
-where $N$ is the order of the expansion, $N_\theta$ the discretization in the azimuthal angle,  <img src="https://render.githubusercontent.com/render/math?math=P_l^m(t_k)"> are Legendre polynomials of degree <img src="https://render.githubusercontent.com/render/math?math=l=0,...,N"> and order <img src="https://render.githubusercontent.com/render/math?math=m=-N,...,N">, <img src="https://render.githubusercontent.com/render/math?math=t_k=\cos \theta_k">, <img src="https://render.githubusercontent.com/render/math?math=w_k"> is the Gaussian quadrature factor (calculated with a third party script), and
+where $N$ is the order of the expansion, $N_\theta$ the discretization in the azimuthal angle,  $P_l^m(t_k)$ are Legendre polynomials of degree $l=0,...,N$ and order $m=-N,...,N$, $t_k=\cos \theta_k$, $w_k$ is the Gaussian quadrature factor (calculated with a third party script), and
 
 <p align="center">
   <img src="Eqs/eq3.png" width="500" title="hover text">
