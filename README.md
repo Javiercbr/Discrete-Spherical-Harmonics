@@ -5,7 +5,7 @@ This is an implementation of the Discrete Spherical Harmonic Expansion for 3D fu
 
 # Circular Component Expansion in 2D
 
-This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in $\mathbb{R}^2$  written in polar coordinates as $F(r,\phi )$ is decomposed in circular components. The function on a circle of radius r centered at the origin are then expanded as Fourier series of a $2\pi$-periodic function according
+This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in <img src="https://latex.codecogs.com/png.latex?f : \mathbb{R}^2" /> written in polar coordinates as $F(r,\phi )$ is decomposed in circular components. The function on a circle of radius r centered at the origin are then expanded as Fourier series of a $2\pi$-periodic function according
 
 
 <p align="center">
@@ -27,7 +27,7 @@ The discrete expansion can easily be carried out using the DFT-IDFT pair and the
 # Spherical Harmonic Expansion in 3D
 
 The idea consists in slicing a function
-<img src="https://latex.codecogs.com/png.latex?\mathbb{R}^3 \rightarrow \mathbb{R}" /> $f: \mathbb{R}^3 \rightarrow \mathbb{R}$ in spheres centered at the origin. In spherical coordinates, the function is $F(r,\theta,\phi )$. For a given radius $r$, the values of the function lie on a sphere parametrized by angles $(\theta,\phi )\in\[0, \pi]\times[0, 2\pi)$. Functions on a sphere of radius $r$ can be expanded using Spherical Harmonic Expansion according
+<img src="https://latex.codecogs.com/png.latex?f : \mathbb{R}^3 \rightarrow \mathbb{R}" /> in spheres centered at the origin. In spherical coordinates, the function is $F(r,\theta,\phi )$. For a given radius $r$, the values of the function lie on a sphere parametrized by angles $(\theta,\phi )\in\[0, \pi]\times[0, 2\pi)$. Functions on a sphere of radius $r$ can be expanded using Spherical Harmonic Expansion according
 
 
 
