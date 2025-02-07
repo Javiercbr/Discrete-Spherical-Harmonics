@@ -13,7 +13,7 @@ This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in
 
 </p>
 
-#  <img src="https://render.githubusercontent.com/render/math?math=F(r, \phi)=\sum_{l\in \mathbb{Z}}F_{l}(r)e^{il\phi},"> 
+//  <img src="https://render.githubusercontent.com/render/math?math=F(r, \phi)=\sum_{l\in \mathbb{Z}}F_{l}(r)e^{il\phi},"> 
 where
 
 <p align="center">
