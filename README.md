@@ -5,7 +5,7 @@ This is an implementation of the Discrete Spherical Harmonic Expansion for 3D fu
 
 # Circular Component Expansion in 2D
 
-This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in <img src="https://latex.codecogs.com/png.latex?f : \mathbb{R}^2" /> written in polar coordinates as $F(r,\phi )$ is decomposed in circular components. The function on a circle of radius r centered at the origin are then expanded as Fourier series of a $2\pi$-periodic function according
+This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in <img src="https://latex.codecogs.com/png.latex?\mathbb{R}^2" /> written in polar coordinates as $F(r,\phi )$ is decomposed in circular components. The function on a circle of radius r centered at the origin are then expanded as Fourier series of a $2\pi$-periodic function according
 
 
 <p align="center">
