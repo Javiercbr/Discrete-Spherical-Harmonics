@@ -13,7 +13,7 @@ This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in
 
 </p>
 
-<img src="https://render.githubusercontent.com/render/math?math=F(r, \phi)=\sum_{l\in \mathbb{Z}}F_{l}(r)e^{il\phi},">
+<! <img src="https://render.githubusercontent.com/render/math?math=F(r, \phi)=\sum_{l\in \mathbb{Z}}F_{l}(r)e^{il\phi},"> >
 where
 
 <p align="center">
@@ -33,7 +33,7 @@ $f: \mathbb{R}^3 \rightarrow \mathbb{R}$ in spheres centered at the origin. In s
 
 
 <p align="center">
-  <img src="Eqs/SHE.png" width="400" title="hover text">
+  <img src="Eqs/SHE.png" width="500" title="hover text">
 
 </p>
 <img src="https://render.githubusercontent.com/render/math?math=F(r,\theta,\phi)=\sum_{l=0}^\infty\sum_{|m|\leq l}F_{lm}(r)Y_l^m(\theta,\phi),">
@@ -42,7 +42,7 @@ $f: \mathbb{R}^3 \rightarrow \mathbb{R}$ in spheres centered at the origin. In s
 
 where the Spherical Harmonics are
 <p align="center">
-  <img src="Eqs/Yml.png" width="400" title="hover text">
+  <img src="Eqs/Yml.png" width="500" title="hover text">
 
 </p>
 
@@ -50,7 +50,7 @@ where the Spherical Harmonics are
 
 and the radial components are
 <p align="center">
-  <img src="Eqs/SHC.png" width="400" title="hover text">
+  <img src="Eqs/SHC.png" width="500" title="hover text">
 
 </p>
 
