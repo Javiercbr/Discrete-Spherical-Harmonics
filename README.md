@@ -5,7 +5,7 @@ This is an implementation of the Discrete Spherical Harmonic Expansion for 3D fu
 
 # Circular Component Expansion in 2D
 
-This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in  <img src="https://render.githubusercontent.com/render/math?math=\mathbb{R}^2">  written in polar coordinates as <img src="https://render.githubusercontent.com/render/math?math=F(r,\phi )"> is decomposed in circular components. The function on a circle of radius r centered at the origin are then expanded as Fourier series of a <img src="https://render.githubusercontent.com/render/math?math={2\pi}">-periodic function according
+This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in $\mathbb{R}^2$  written in polar coordinates as $F(r,\phi )$ is decomposed in circular components. The function on a circle of radius r centered at the origin are then expanded as Fourier series of a $2\pi$-periodic function according
 
 
 <img src="https://render.githubusercontent.com/render/math?math=F(r, \phi)=\sum_{l\in \mathbb{Z}}F_{l}(r)e^{il\phi},">
@@ -18,7 +18,7 @@ The discrete expansion can easily be carried out using the DFT-IDFT pair and the
 # Spherical Harmonic Expansion in 3D
 
 The idea consists in slicing a function
- <img src="https://render.githubusercontent.com/render/math?math=f: \mathbb{R}^3 \rightarrow \mathbb{R}"> in spheres centered at the origin. In spherical coordinates, the function is <img src="https://render.githubusercontent.com/render/math?math=F(r,\theta,\phi )">. For a given radius <img src="https://render.githubusercontent.com/render/math?math=r">, the values of the function lie on a sphere parametrized by angles <img src="https://render.githubusercontent.com/render/math?math=(\theta,\phi )\in\[0, \pi]\times[0, 2\pi)">. Functions on a sphere of radius <img src="https://render.githubusercontent.com/render/math?math=r"> can be expanded using Spherical Harmonic Expansion according
+$f: \mathbb{R}^3 \rightarrow \mathbb{R}$ in spheres centered at the origin. In spherical coordinates, the function is $F(r,\theta,\phi )$. For a given radius $r$, the values of the function lie on a sphere parametrized by angles $(\theta,\phi )\in\[0, \pi]\times[0, 2\pi)$. Functions on a sphere of radius $r$ can be expanded using Spherical Harmonic Expansion according
 
 
 <img src="https://render.githubusercontent.com/render/math?math=F(r,\theta,\phi)=\sum_{l=0}^\infty\sum_{|m|\leq l}F_{lm}(r)Y_l^m(\theta,\phi),">
