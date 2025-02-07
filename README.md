@@ -8,8 +8,18 @@ This is an implementation of the Discrete Spherical Harmonic Expansion for 3D fu
 This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in $\mathbb{R}^2$  written in polar coordinates as $F(r,\phi )$ is decomposed in circular components. The function on a circle of radius r centered at the origin are then expanded as Fourier series of a $2\pi$-periodic function according
 
 
+<p align="center">
+  <img src="CCE.png" width="900" title="hover text">
+
+</p>
+
 <img src="https://render.githubusercontent.com/render/math?math=F(r, \phi)=\sum_{l\in \mathbb{Z}}F_{l}(r)e^{il\phi},">
 where
+
+<p align="center">
+  <img src="CC.png" width="900" title="hover text">
+
+</p>
 
 <img src="https://render.githubusercontent.com/render/math?math=F_{l}(r)= \frac{1}{2\pi}\int_0^{2\pi} d\phi \, F(r,\phi)e^{-i l\phi}.">
 
