@@ -27,7 +27,7 @@ The discrete expansion can easily be carried out using the DFT-IDFT pair and the
 # Spherical Harmonic Expansion in 3D
 
 The idea consists in slicing a function
-$f: \mathbb{R}^3 \rightarrow \mathbb{R}$ in spheres centered at the origin. In spherical coordinates, the function is $F(r,\theta,\phi )$. For a given radius $r$, the values of the function lie on a sphere parametrized by angles $(\theta,\phi )\in\[0, \pi]\times[0, 2\pi)$. Functions on a sphere of radius $r$ can be expanded using Spherical Harmonic Expansion according
+<img src="https://latex.codecogs.com/png.latex?\mathbb{R}^3 \rightarrow \mathbb{R}" /> $f: \mathbb{R}^3 \rightarrow \mathbb{R}$ in spheres centered at the origin. In spherical coordinates, the function is $F(r,\theta,\phi )$. For a given radius $r$, the values of the function lie on a sphere parametrized by angles $(\theta,\phi )\in\[0, \pi]\times[0, 2\pi)$. Functions on a sphere of radius $r$ can be expanded using Spherical Harmonic Expansion according
 
 
 
