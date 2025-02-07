@@ -13,7 +13,7 @@ This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in
 
 </p>
 
-//  <img src="https://render.githubusercontent.com/render/math?math=F(r, \phi)=\sum_{l\in \mathbb{Z}}F_{l}(r)e^{il\phi},"> 
+
 where
 
 <p align="center">
@@ -21,7 +21,6 @@ where
 
 </p>
 
-<img src="https://render.githubusercontent.com/render/math?math=F_{l}(r)= \frac{1}{2\pi}\int_0^{2\pi} d\phi \, F(r,\phi)e^{-i l\phi}.">
 
 The discrete expansion can easily be carried out using the DFT-IDFT pair and the efficient FFT algorithm.
 
@@ -36,8 +35,6 @@ $f: \mathbb{R}^3 \rightarrow \mathbb{R}$ in spheres centered at the origin. In s
   <img src="Eqs/SHE.png" width="500" title="hover text">
 
 </p>
-<img src="https://render.githubusercontent.com/render/math?math=F(r,\theta,\phi)=\sum_{l=0}^\infty\sum_{|m|\leq l}F_{lm}(r)Y_l^m(\theta,\phi),">
-
 
 
 where the Spherical Harmonics are
@@ -46,7 +43,6 @@ where the Spherical Harmonics are
 
 </p>
 
-<img src="https://render.githubusercontent.com/render/math?math=Y_l^m(\theta,\phi)=(-1)^m\sqrt{\frac{(2l %2B 1)(l-m)!}{4\pi(l %2B m)!}}P^m_l(\cos\theta)e^{im\phi},">
 
 and the radial components are
 <p align="center">
@@ -54,7 +50,6 @@ and the radial components are
 
 </p>
 
-<img src="https://render.githubusercontent.com/render/math?math=F_{lm}(r)=\langle F, Y_l^m \rangle=\int_0^{2\pi}\int_0^\pi F(r,\theta,\phi)\overline{Y_l^m(\theta,\phi)}\sin\theta \,d\theta d\phi,">
 
 
  where the overline denotes complex conjugation.
