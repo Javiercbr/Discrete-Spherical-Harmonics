@@ -58,7 +58,7 @@ The algorithm employs the standard definition for the DFT-IDFT pair. The DLT-IDL
 
 </p>
 
-where <img src="https://render.githubusercontent.com/render/math?math=N"> is the order of the expansion, <img src="https://render.githubusercontent.com/render/math?math=N_\theta"> the discretization in the azimuthal angle,  <img src="https://render.githubusercontent.com/render/math?math=P_l^m(t_k)"> are Legendre polynomials of degree <img src="https://render.githubusercontent.com/render/math?math=l=0,...,N"> and order <img src="https://render.githubusercontent.com/render/math?math=m=-N,...,N">, <img src="https://render.githubusercontent.com/render/math?math=t_k=\cos \theta_k">, <img src="https://render.githubusercontent.com/render/math?math=w_k"> is the Gaussian quadrature factor (calculated with a third party script), and
+where $N$ is the order of the expansion, $N_\theta$ the discretization in the azimuthal angle,  <img src="https://render.githubusercontent.com/render/math?math=P_l^m(t_k)"> are Legendre polynomials of degree <img src="https://render.githubusercontent.com/render/math?math=l=0,...,N"> and order <img src="https://render.githubusercontent.com/render/math?math=m=-N,...,N">, <img src="https://render.githubusercontent.com/render/math?math=t_k=\cos \theta_k">, <img src="https://render.githubusercontent.com/render/math?math=w_k"> is the Gaussian quadrature factor (calculated with a third party script), and
 
 <p align="center">
   <img src="Eqs/eq3.png" width="500" title="hover text">
@@ -69,7 +69,7 @@ Refer to [3] for a more detailed description of the algorithm.
 
 # Numerical reconstruction
 
-The DSHT-IDSHT of order <img src="https://render.githubusercontent.com/render/math?math=N=256"> has been applied to a 3D Shepp-Logan phantom of size 64x64x64. This is a 3D version of the benchmark for testing algorithms in medical imaging. The figure shows six representative slices of the original object (column 1) and its reconstruction (column 2). The reconstruction exhibits some artifacts due to Gibbs phenomenon. Appropriate filtering [4] reduces this effect (column 3) and improves image quality. The 3D object is provided with the code and the main executes it automatically.
+The DSHT-IDSHT of order $N=256$ has been applied to a 3D Shepp-Logan phantom of size 64x64x64. This is a 3D version of the benchmark for testing algorithms in medical imaging. The figure shows six representative slices of the original object (column 1) and its reconstruction (column 2). The reconstruction exhibits some artifacts due to Gibbs phenomenon. Appropriate filtering [4] reduces this effect (column 3) and improves image quality. The 3D object is provided with the code and the main executes it automatically.
 
 <p align="center">
   <img src="SL_SHT.png" width="900" title="hover text">
