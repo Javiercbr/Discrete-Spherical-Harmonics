@@ -37,14 +37,14 @@ and the radial components are
 
 # Algorithm: Discrete Spherical Harmonic Expansion
 
- In the discrete case, the samples of function <img src="https://render.githubusercontent.com/render/math?math=F_{kn}^j = F(r_j,\theta_k,\phi_n )"> are decomposed to obtain the radial dependent coefficients of the DSHT expansion <img src="https://render.githubusercontent.com/render/math?math=(F^j_{lm}=F_{lm}(r_j))">. The IDSHT allows to recover the original function, the full pipeline is summarized as follows: 
+ In the discrete case, the samples of function $F_{kn}^j = F(r_j,\theta_k,\phi_n )$ are decomposed to obtain the radial dependent coefficients of the DSHT expansion $(F^j_{lm}=F_{lm}(r_j))$. The IDSHT allows to recover the original function, the full pipeline is summarized as follows: 
  
 <p align="center">
   <img src="Eqs/DSHT.png" width="700" title="hover text">
 
 </p>
 
-where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT-IDFT) and the Discrete Legendre Transform (DLT-IDLT). Index <img src="https://render.githubusercontent.com/render/math?math=j"> labels the radius of each sphere whereas indices <img src="https://render.githubusercontent.com/render/math?math=l"> and <img src="https://render.githubusercontent.com/render/math?math=m"> label the spherical component. Indices <img src="https://render.githubusercontent.com/render/math?math=n=-N,...,N"> and <img src="https://render.githubusercontent.com/render/math?math=k=1,...,N_\theta"> label the polar <img src="https://render.githubusercontent.com/render/math?math=\phi \in [0, 2\pi)"> and azimuthal angles <img src="https://render.githubusercontent.com/render/math?math=\theta\in\[0, \pi]">. Radius <img src="https://render.githubusercontent.com/render/math?math=r"> must cover the support of the function.
+where the forward-inverse pairs are used for the Discrete Fourier Transform (DFT-IDFT) and the Discrete Legendre Transform (DLT-IDLT). Index $j$ labels the radius of each sphere whereas indices $l$ and $m$ label the spherical component. Indices $n=-N,...,N$ and $k=1,...,N_\theta$ label the polar $\phi \in [0, 2\pi)$ and azimuthal angles $\theta\in\[0, \pi]$. Radius <img src="https://render.githubusercontent.com/render/math?math=r"> must cover the support of the function.
 
 The algorithm employs the standard definition for the DFT-IDFT pair. The DLT-IDLT is defined as follows: 
 
