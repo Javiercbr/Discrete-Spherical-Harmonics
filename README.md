@@ -9,7 +9,7 @@ This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in
 
 
 <p align="center">
-  <img src="Eqs/CCE.png" width="200" title="hover text">
+  <img src="Eqs/CCE.png" width="300" title="hover text">
 
 </p>
 
@@ -17,7 +17,7 @@ This is the 2D relative of the Spherical Harmonic Expansion in 3D. A function in
 where
 
 <p align="center">
-  <img src="Eqs/CC.png" width="200" title="hover text">
+  <img src="Eqs/CC.png" width="300" title="hover text">
 
 </p>
 
